@@ -14,7 +14,8 @@ body {
 }
 
 .container {
-    width: 90%;
+    width: 90%; 
+    max-width: 1200px; 
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -163,19 +164,43 @@ body {
    
     .header-top {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-direction: column; 
+        align-items: center;    
         width: 100%;
     }
 
     .logo, .nav, .social {
-        width: 100%;
-        text-align: center;
-        margin: 5px 0;
-        padding: 8px;
+        width: 90%;               
+        text-align: center;       
+        margin: 5px 0;            
     }
 
-   
+    .logo {
+        background-color: #cc3333;
+        padding: 10px;
+        font-weight: bold;
+        color: black;
+        border-right: 0px solid #333333;
+        text-align: center;       
+    }
+
+    .nav {
+        background-color: #cc3333;
+        padding: 10px;
+        font-weight: bold;
+        color: black;
+        text-align: center;      
+    }
+
+    .social {
+        background-color: #cc3333;
+        padding: 10px;
+        font-weight: bold;
+        color: black;
+        border-left: 0px solid #333333;
+        text-align: center;       
+    }
+
     .banner {
         width: 100%;               
         text-align: center;        

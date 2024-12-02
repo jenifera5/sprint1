@@ -3,10 +3,10 @@
 // Función para determinar si Charlie muerde o no
 function isBitten() {
     
-    $randomNumber = rand(0, 1); 
+    $random = rand(true, false); 
 
    
-    if ($randomNumber == 0) {
+    if ($random == true) {
         echo "Charlie te muerde";
     } else {
         echo "No te muerde";
