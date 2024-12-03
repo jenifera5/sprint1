@@ -170,15 +170,15 @@ body {
 /* Media query para tablet  he usado el ipad mini 768x1024 de prueba*/
 @media only screen and (max-width: 1024px) {
     .header, .footer, .banner-wrapper {
-        border: 10px solid black; /* Mantener el grosor original */
+        border: 10px solid black; 
     }
 
     .banner {
-        border: 20px solid #ff6600; /* Ajuste para tablet */
+        border: 20px solid #ff6600; 
     }
 
     .navegacion {
-        padding-top: 10px; /* Ajustamos el espaciado para mejorar la disposición */
+        padding-top: 10px; 
     }
 
     .header-top {
@@ -260,7 +260,7 @@ body {
     background-color: #6699cc;
     text-align: left;
     padding: 20px;
-    padding-top: 5px; /* Reducir el espacio interno sin tocar el margen */
+    padding-top: 5px; 
     margin-left: 20px;
     margin-right:20px;
     color: black;
@@ -309,15 +309,15 @@ body {
 /* Media query para dispositivos móviles (iphone 14 pro max 430px) */
 @media only screen and (max-width: 430px) {
     .header, .footer, .banner-wrapper {
-        border: 10px solid black; /* Mantener el grosor original */
+        border: 10px solid black; 
     }
 
     .banner {
-        border: 20px solid #ff6600; /* Ajuste para móvil */
+        border: 20px solid #ff6600; 
     }
 
     .navegacion {
-        padding-top: 5px; /* Ajuste para móvil */ 
+        padding-top: 5px; 
     }
         
     .header-top {
