@@ -1,6 +1,6 @@
 * {
-    margin: 5px;
-    padding: 5px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -255,6 +255,99 @@ body {
     }
 
     
+    .empty-space {
+        height: 20px;
+        background-color: white;
+    }
+}
+
+/* Media query para dispositivos móviles (iphone 14 pro max 430px) */
+@media only screen and (max-width: 430px) {
+   
+    .header-top {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;    
+        width: 100%;
+    }
+
+    .logo, .nav, .social {
+        width: 90%;               
+        text-align: center;       
+        margin: 5px 0;            
+    }
+
+    .logo {
+        background-color: #cc3333;
+        padding: 10px;
+        font-weight: bold;
+        color: black;
+        border-right: 0px solid #333333;
+        text-align: center;       
+    }
+
+    .nav {
+        background-color: #cc3333;
+        padding: 10px;
+        font-weight: bold;
+        color: black;
+        text-align: center;      
+    }
+
+    .social {
+        background-color: #cc3333;
+        padding: 10px;
+        font-weight: bold;
+        color: black;
+        border-left: 0px solid #333333;
+        text-align: center;       
+    }
+
+    .banner {
+        width: 100%;               
+        text-align: center;        
+        padding: 15px;             
+        margin-top: 10px;          
+        border: 15px solid #ff6600; 
+        background-color: #ffdf00;  
+    }
+
+   
+    .articles {
+        display: block;  
+        width: 100%;
+    }
+
+    .article {
+        background-color: #3366cc;
+        text-align: left;
+        padding: 10px;
+        color: black;
+        height: auto;  
+        display: block;  
+        box-sizing: border-box;
+        font-size: 14px; 
+        margin-bottom: 10px;  
+    }
+
+    .content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .publicidad-container {
+        display: flex;
+        flex-direction: column; 
+        gap: 8px;
+        width: 100%;
+        margin-top: 12px;
+    }
+
+    .footer {
+        text-align: center;
+        padding: 12px;
+    }
+
     .empty-space {
         height: 20px;
         background-color: white;
