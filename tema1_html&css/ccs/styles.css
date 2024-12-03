@@ -1,0 +1,160 @@
+* {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+.container {
+    width: 90%; 
+    max-width: 1200px; 
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #333333;
+    padding: 10px;
+    border: 10px solid black;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.logo {
+    flex: 0.8;
+    text-align: left;
+    background-color: #cc3333;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+    border-right: 10px solid #333333; 
+}
+
+.nav {
+    flex: 2.4;
+    text-align: left;
+    background-color: #cc3333;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+}
+.social {
+    flex: 0.8;
+    text-align: left;
+    background-color: #cc3333;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+    border-left: 10px solid #333333; 
+}
+
+.banner-wrapper {
+    background-color: #ff6600;  
+    border: 10px solid black;   
+    margin-top: -10px;         
+}
+
+
+.banner {
+    background-color: #ffcc00;
+    text-align: left;
+    padding: 20px;
+    font-weight: bold;
+    border: 20px solid #ff6600; 
+    background-color: #ffdf00;
+}
+
+
+.empty-space {
+    height: 20px; 
+    background-color: white;
+}
+
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border: 5px solid black;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+
+.articles {
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    background-color: grey;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+.article {
+    background-color: #3366cc;
+    text-align: left;
+    padding: 20px;
+    color: black;
+}
+
+
+.navegacion {
+    grid-column: span 2;
+    background-color: #6699cc;
+    text-align: left;
+    padding: 20px;
+    margin-top: 10px;
+    color: black;
+}
+
+
+.publicidad-container {
+    flex: 1;
+    background-color: #ff6600;
+    padding: 10px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.publicidad {
+    background-color: #cc3333;
+    color: black;
+    text-align: left;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.footer {
+    background-color: #ffcc66;
+    text-align: left;
+    padding: 20px;
+    font-weight: bold;
+    border: 10px solid black;
+    margin-top: 10px;
+}
+
+
