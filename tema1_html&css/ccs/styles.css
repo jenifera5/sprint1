@@ -157,4 +157,112 @@ body {
     margin-top: 10px;
 }
 
+/* Media query para tablet  he usado el ipad mini 768x1024 de prueba*/
+@media only screen and (max-width: 1024px) {
+
+    
+    .header-top {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;    
+        width: 100%;
+    }
+
+    .logo, .nav, .social {
+        width: 90%;               
+        text-align: center;       
+        margin: 5px 0;            
+    }
+
+    .logo {
+        background-color: #cc3333;
+        padding: 10px;
+        font-weight: bold;
+        color: black;
+        border-right: 0px solid #333333;
+        text-align: center;       
+    }
+
+    .nav {
+        background-color: #cc3333;
+        padding: 10px;
+        font-weight: bold;
+        color: black;
+        text-align: center;      
+    }
+
+    .social {
+        background-color: #cc3333;
+        padding: 10px;
+        font-weight: bold;
+        color: black;
+        border-left: 0px solid #333333;
+        text-align: center;       
+    }
+
+    .banner {
+        width: 100%;               
+        text-align: center;        
+        padding: 15px;             
+        margin-top: 10px;          
+        border: 15px solid #ff6600; 
+        background-color: #ffdf00;  
+    }
+
+   
+.articles {
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    background-color: grey;
+    padding: 10px;
+    border: 5px solid black;
+    width: 100%;
+}
+
+
+.article {
+    background-color: #3366cc;
+    text-align: left;
+    padding: 20px;
+    color: black;
+    height: 100px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;  
+}
+
+
+    
+    .content {
+        flex-direction: column; 
+    }
+
+    .publicidad-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%; 
+        margin-top: 20px; 
+    }
+
+   
+    .footer {
+        text-align: center;
+        padding: 15px;
+    }
+
+    
+    .empty-space {
+        height: 20px;
+        background-color: white;
+    }
+}
+
+
+
+
+
 
