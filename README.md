@@ -1,6 +1,6 @@
 # Ejercicios de Clase - FullStack
 
-Este repositorio contiene los ejercicios de clase realizados para el curso de FullStack. Los ejercicios cubren temas como Git, HTML y CSS, y otros relacionados con el desarrollo web.
+Este repositorio contiene los ejercicios de clase realizados para el curso de FullStack. Los ejercicios cubren temas como Git, HTML y CSS,PHP.etc y otros relacionados con el desarrollo web.
 
 ## Ejercicios
 
