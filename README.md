@@ -4,7 +4,7 @@ Este repositorio contiene los ejercicios de clase realizados para el curso de Fu
 
 ## Ejercicios
 
-### Ejercicio 0: Tema 0 - Git
+###  Tema 0 - Git
 Este ejercicio está enfocado en el uso de Git para controlar versiones y gestionar un repositorio.
 
 - **Objetivo**: 
@@ -16,7 +16,7 @@ Este ejercicio está enfocado en el uso de Git para controlar versiones y gestio
   - Realizar pruebas de Git: crear un repositorio, clonar repositorios, y gestionar cambios de versión (commits).
   - Subir cambios a GitHub.
 
-### Ejercicio 1: Tema 1 - HTML y CSS
+###  Tema 1 - HTML y CSS
 Este ejercicio trata sobre maquetación web utilizando HTML y CSS.
 
 - **Objetivo**:
@@ -27,6 +27,15 @@ Este ejercicio trata sobre maquetación web utilizando HTML y CSS.
 - **Método**: 
   - Utilizar HTML y CSS para estructurar y maquetar una página web con Flexbox.
   - Aplicar principios de diseño responsivo para ajustar el contenido según el tamaño de la pantalla.
+###  Tema 2 - PHP Basico
+Este ejercicio trata sobre maquetación web utilizando HTML y CSS.
+- **Objetivo**:
+  - Creación y utilización de variables y constantes.
+  - Operar con variables.
+  - Aislar código fuente en funciones.
+- **Método**:
+  - Utilizar el lenguaje de php para resolver los ejercicios.
+    
 
 ## Requisitos
 
