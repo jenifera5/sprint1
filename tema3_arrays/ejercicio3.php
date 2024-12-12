@@ -26,10 +26,10 @@ echo words($words, $char) ? "true" : "false" . "<br>";  // Esto debería devolve
 //////////////////////////////////////////////////////////////////////////
 
 // Segunda versión usando `array_filter`
-// En este método, usamos array_filter para filtrar las palabras que contienen el carácter especificado.
+// En este método, uso array_filter para filtrar las palabras que contienen el carácter especificado.
 
 function words($arr, $char) {
-    // Filtrar las palabras que contienen el carácter
+    // Filtra las palabras que contienen el carácter
     $filtered = array_filter($arr, function($word) use ($char) {
         // stripos busca el carácter en la palabra ignorando mayúsculas y minúsculas
         return stripos($word, $char) !== false; 
