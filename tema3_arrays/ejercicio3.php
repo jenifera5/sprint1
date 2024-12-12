@@ -1,5 +1,6 @@
 <?php  
-/* Primera versión usando un bucle `foreach`
+/* Primera versión usando un bucle `foreach` */
+/*
 function words($arr, $char) {
     // Iterar sobre cada palabra en el array
     foreach ($arr as $word) {
@@ -19,8 +20,9 @@ echo words($words, $char) ? "true" : "false" . "<br>";  // Esto debería devolve
 
 $char = "l";
 echo words($words, $char) ? "true" : "false" . "<br>";  // Esto debería devolver false
+// stripos busca ese carácter dentro de cada palabra y determina si está presente o no.
+// Tú decides el carácter con el parámetro $char.
 */
-
 //////////////////////////////////////////////////////////////////////////
 
 // Segunda versión usando `array_filter`
@@ -46,4 +48,5 @@ echo "<br>";
 
 $char = "l";
 echo words($words, $char) ? "true" : "false"; // Esto debería devolver false
-?> 
+?>
+
