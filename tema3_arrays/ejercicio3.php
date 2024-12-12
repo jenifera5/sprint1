@@ -4,8 +4,8 @@
 function words($arr, $char) {
     // Iterar sobre cada palabra en el array
     foreach ($arr as $word) {
-        // Verificar si el carácter especificado NO existe en la palabra
-        // Usamos stripos, que busca la posición de la primera aparición del carácter ignorando mayúsculas y minúsculas
+        // Verifica si el carácter especificado NO existe en la palabra
+        //Se usa stripos, que busca la posición de la primera aparición del carácter ignorando mayúsculas y minúsculas
         if (stripos($word, $char) === false) {
             return false; // Si alguna palabra no contiene el carácter, la función retorna false inmediatamente.
         }
