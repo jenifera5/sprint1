@@ -7,8 +7,9 @@ class Rectangulo extends Shape {
     }
 
     public function area() {
-        return $this->ancho * $this->alto; 
+        return $this->getAncho() * $this->getAlto(); 
     }
 }
 ?>
+
 
