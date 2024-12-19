@@ -5,10 +5,10 @@ session_start();
 // Eliminar todas las variables de sesión
 session_unset();
 
-// Destruir la sesión
+// Destruye la sesión
 session_destroy();
 
-// Redirigir al formulario
+// Se redirige al formulario
 header("Location: ejercicio1.php");
 exit();
 ?>
