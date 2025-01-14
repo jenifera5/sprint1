@@ -10,11 +10,11 @@
 session_start();
 
 if (isset($_SESSION['nombre'])) {
-    // Mostrar saludo si el nombre está en sesión
+    // verifica si existe la variable nombre
     echo "<h1>Bienvenido/a, " . htmlspecialchars($_SESSION['nombre']) . "!</h1>";
     echo "<a href='logout.php'>Cerrar sesión</a>";
 } else {
-    // Mostrar formulario si no existe la variable de sesión
+    // muestra  el formulario si no existe la variable de sesión
 ?>
     <form method="post" action="procesarformulario.php">
         <label for="nombre">Introduce tu nombre:</label><br>

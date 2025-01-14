@@ -1,8 +1,8 @@
 <?php
-// Iniciar la sesión
+// Inicia la sesión
 session_start();
 
-// Eliminar todas las variables de sesión
+// Su funcion es eliminar todas las variables de sesión
 session_unset();
 
 // Destruye la sesión
