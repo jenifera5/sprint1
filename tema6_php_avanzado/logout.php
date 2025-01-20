@@ -1,14 +1,8 @@
 <?php
-// Inicia la sesión
 session_start();
-
-// Su funcion es eliminar todas las variables de sesión
-session_unset();
-
+session_destroy(); 
 // Destruye la sesión
-session_destroy();
-
-// Se redirige al formulario
-header("Location: ejercicio1.php");
+header("Location: ejercicio1.php"); 
+//Se redirige al formulario principal
 exit();
 ?>

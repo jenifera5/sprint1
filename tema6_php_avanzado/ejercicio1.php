@@ -1,3 +1,5 @@
+</body>
+</html>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -9,16 +11,16 @@
 <?php
 session_start();
 
-if (isset($_SESSION['nombre'])) {
-    // verifica si existe la variable nombre
-    echo "<h1>Bienvenido/a, " . htmlspecialchars($_SESSION['nombre']) . "!</h1>";
+if (isset($_SESSION['username'])) {
+    // Si el usuario ya inició sesión, muestra el mensaje de bienvenida
+    echo "<h1>Bienvenido/a, " . ($_SESSION['username']) . "!</h1>";
     echo "<a href='logout.php'>Cerrar sesión</a>";
 } else {
-    // muestra  el formulario si no existe la variable de sesión
+    // Si no estás registrado, muestra el formulario
 ?>
-    <form method="post" action="procesarformulario.php">
-        <label for="nombre">Introduce tu nombre:</label><br>
-        <input type="text" id="nombre" name="nombre" required>
+    <form method="post" action="procesoformulario.php">
+        <label for="usuario">Introduce tu usuario:</label><br>
+        <input type="text" id="usuario" name="username" required>
         <br><br>
         <button type="submit">Enviar</button>
     </form>
