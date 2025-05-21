@@ -58,4 +58,4 @@ Tener instalado un editor de texto como Visual Studio Code.
 
 Tener instalado Git en la máquina local.
 
-Tener un servidor local como XAMPP o Laragon para probar archivos .php.
+Tener un servidor local como XAMPP o para probar archivos .php.
