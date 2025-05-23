@@ -1,8 +1,3 @@
-
-<!DOCTYPE html>
-<html>
-<body>
-
 <?php 
 $integer=3;
 $double=5.5;
@@ -17,8 +12,6 @@ echo "String"   .$string  ."<br>";
 echo "boolean:" .$boolean  ."<br>";
 
 
-define("NOMBRE","Jenifer!");
+define("NOMBRE","Jenifer");
 echo NOMBRE;
 ?>
-</body>
-</html>
