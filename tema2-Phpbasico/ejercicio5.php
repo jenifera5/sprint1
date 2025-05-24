@@ -1,6 +1,5 @@
 <?php
-$nota=60
-;
+$nota=60;
 
 if($nota>= 60){
 echo"Estas en la primera division";
