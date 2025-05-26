@@ -23,6 +23,9 @@ function Print(){
 
 }
 
+$empleado =new Employee();
+$empleado->initialize("Marta",30000);
+$empleado->print();
 
-
+$empleado
 ?>
