@@ -1,0 +1,1 @@
+{"version":1,"defects":{"NumberCheckerTest::testIsEven":8,"NumberCheckerTest::testIsOdd":8},"times":{"NumberCheckerTest::testIsEven":0.004,"NumberCheckerTest::testIsOdd":0,"App\\NumberCheckerTest::testIsEven":0.002,"App\\NumberCheckerTest::testIsOdd":0}}
