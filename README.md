@@ -1,61 +1,152 @@
-🧪 Ejercicios de Clase - FullStack Sprint 1
-Este repositorio contiene los ejercicios realizados durante el Sprint 1 del curso de desarrollo FullStack. Abarca temas fundamentales como Git, HTML, CSS y PHP, entre otros relacionados con el desarrollo web moderno.
+# 🧪 FullStack Sprint 1 – Ejercicios de Clase
 
-📚 Ejercicios
-Tema 0 – Git 🗂️
-Objetivo:
+Este repositorio contiene los ejercicios desarrollados durante el **Sprint 1** del curso de **Desarrollo Web FullStack** en **IT Academy**. Los temas abordados incluyen fundamentos esenciales como **Git, HTML, CSS y PHP**, con un enfoque práctico y progresivo para fortalecer habilidades en desarrollo web moderno.
 
-Crear un repositorio para mostrar las actividades.
+---
 
-Trabajar localmente con el repositorio.
+## 📑 Tabla de Contenidos
 
-Generar y registrar cambios mediante commits.
+1. [Tema 0 – Git](#tema-0--git)
+2. [Tema 1 – HTML y CSS](#tema-1--html-y-css)
+3. [Tema 2 – PHP Básico](#tema-2--php-básico)
+4. [Tema 3 – PHP Arrays](#tema-3--php-arrays)
+5. [Tema 4 – PHP POO I](#tema-4--php-poo-i)
+6. [Tema 5 – PHP POO II](#tema-5--php-poo-ii)
+7. [Tema 6 – PHP Avanzado](#tema-6--php-avanzado)
+8. [Tema 7 – Testing y Debug](#tema-7--testing-y-debug)
+9. [🧰 Requisitos](#-requisitos)
 
-Subir los cambios a un repositorio remoto en GitHub.
+---
 
-Método:
+## Tema 0 – Git 🗂️
 
-Crear y clonar repositorios.
+**Objetivo:**
 
-Gestionar versiones con git add, git commit, git push, etc.
+- Crear y gestionar un repositorio.
+- Trabajar localmente con control de versiones.
+- Registrar y subir cambios a GitHub.
 
-Familiarizarse con el flujo de trabajo Git básico.
+**Método:**
 
-Tema 1 – HTML y CSS 🎨
-Objetivo:
+- Crear y clonar repositorios.
+- Usar comandos como `git add`, `git commit`, `git push`, etc.
+- Comprender el flujo básico de trabajo con Git.
 
-Crear una maquetación por cajas utilizando Flexbox.
+---
 
-Diferenciar entre contenedor e ítem.
+## Tema 1 – HTML y CSS 🎨
 
-Ajustar la maquetación para que sea responsiva.
+**Objetivo:**
 
-Método:
+- Maquetar páginas utilizando el modelo de cajas y Flexbox.
+- Diferenciar entre contenedores e ítems.
+- Crear diseños responsivos.
 
-Usar etiquetas HTML semánticas para estructurar el contenido.
+**Método:**
 
-Aplicar estilos CSS para lograr una disposición flexible y adaptativa.
+- Usar etiquetas semánticas en HTML.
+- Aplicar estilos CSS adaptativos.
+- Emplear diseño responsive para distintos dispositivos.
 
-Emplear principios de diseño responsive para múltiples dispositivos.
+---
 
-Tema 2 – PHP Básico 🐘
-Objetivo:
+## Tema 2 – PHP Básico 🐘
 
-Crear y utilizar variables y constantes.
+**Objetivo:**
 
-Operar con variables utilizando operadores básicos.
+- Declarar y utilizar variables y constantes.
+- Utilizar operadores aritméticos y lógicos.
+- Crear funciones reutilizables.
 
-Encapsular lógica en funciones reutilizables.
+**Método:**
 
-Método:
+- Resolver ejercicios prácticos con PHP.
+- Comprender la estructura y sintaxis del lenguaje.
 
-Usar PHP para resolver ejercicios prácticos.
+---
 
-Comprender la estructura básica del lenguaje y su sintaxis.
+## Tema 3 – PHP Arrays 🏭
 
-🧰 Requisitos
-Tener instalado un editor de texto como Visual Studio Code.
+**Objetivo:**
 
-Tener instalado Git en la máquina local.
+- Crear y manipular arrays.
+- Realizar operaciones con y entre arrays.
 
-Tener un servidor local como XAMPP o para probar archivos .php.
+**Método:**
+
+- Utilizar arrays indexados, asociativos y multidimensionales.
+- Aplicar funciones propias de arrays como `array_push()`, `count()`, `foreach`, etc.
+
+---
+
+## Tema 4 – PHP POO I 🏢
+
+**Objetivo:**
+
+- Implementar la Programación Orientada a Objetos en PHP.
+- Utilizar la herencia como mecanismo de reutilización de código.
+
+**Método:**
+
+- Comprender qué es una clase y cómo se crean objetos.
+- Definir y utilizar propiedades y métodos.
+- Aplicar herencia para extender funcionalidades.
+
+---
+
+## Tema 5 – PHP POO II 🏢
+
+**Objetivo:**
+
+- Aplicar el uso de clases abstractas e interfaces.
+
+**Método:**
+
+- Comprender la diferencia entre clases abstractas e interfaces.
+- Implementar estructuras orientadas a diseño modular y flexible.
+
+---
+
+## Tema 6 – PHP Avanzado 🔧
+
+**Objetivo:**
+
+- Comprender el ámbito de las variables y las sesiones en PHP.
+- Utilizar métodos y constantes mágicas.
+- Trabajar con `enum` y `traits`.
+- Instalar y usar Composer para gestionar dependencias.
+
+**Método:**
+
+- Aplicar superglobales (`$_POST`, `$_GET`, `$_SESSION`, etc.).
+- Utilizar sesiones para persistencia de datos.
+- Experimentar con métodos mágicos (`__construct`, `__toString`, etc.).
+- Instalar Composer y usar paquetes externos.
+
+---
+
+## Tema 7 – Testing y Debug 🧪
+
+**Objetivo:**
+
+- Aplicar pruebas automatizadas utilizando PHPUnit.
+
+**Método:**
+
+- Instalar y configurar PHPUnit.
+- Escribir pruebas básicas para validar funciones y clases.
+- Detectar errores y asegurar el correcto funcionamiento del código.
+
+---
+
+## 🧰 Requisitos
+
+- Tener instalado un editor de texto como **Visual Studio Code**.
+- Tener instalado **Git** en la máquina local.
+- Contar con un servidor local como **XAMPP** para ejecutar archivos `.php`.
+- Tener Composer instalado para gestionar librerías PHP (en temas avanzados).
+
+---
+
+✍️ **Autor/a:** Jenifer Álvarez  
+📅 **Sprint 1 – Curso FullStack – IT Academy**
