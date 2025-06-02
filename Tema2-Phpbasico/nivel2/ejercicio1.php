@@ -1,21 +1,18 @@
 <?php
 
-function llamadaTelefonica(int $min ){
-
-    if($min<=3){
-    
-  return "tiene un coste extra de 10 centimos";
-
-    }elseif($min>3){
-   $minextra = $min-3;
-    $costo = 0.10 + ($minextra*0.05);
-   return "El costo adicional sera : " .$costo ."€";
+function costeLlamada(int $min): string
+{
+    if ($min <= 3) {
+        return "Tiene un coste extra de 10 céntimos";
     }
 
+    $minExtra = $min - 3;
+    $costo = 0.10 + ($minExtra * 0.05);
+
+    return "El costo adicional será: " . $costo . "€";
 }
 
+echo costeLlamada(3) . "<br>";
+echo costeLlamada(40) . "<br>";
 
-echo llamadaTelefonica(3)."<br>";
-
-echo llamadaTelefonica(40)."<br>";
 ?>
