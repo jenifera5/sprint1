@@ -14,11 +14,11 @@ Este repositorio contiene los ejercicios desarrollados durante el **Sprint 1** d
 6. [Tema 5 – PHP POO II](#tema-5--php-poo-ii)
 7. [Tema 6 – PHP Avanzado](#tema-6--php-avanzado)
 8. [Tema 7 – Testing y Debug](#tema-7--testing-y-debug)
-9. [🧰 Requisitos](#-requisitos)
+9. [Requisitos](#requisitos)
 
 ---
 
-## Tema 0 – Git 🗂️
+## Tema 0 – Git 
 
 **Objetivo:**
 
@@ -34,7 +34,7 @@ Este repositorio contiene los ejercicios desarrollados durante el **Sprint 1** d
 
 ---
 
-## Tema 1 – HTML y CSS 🎨
+## Tema 1 – HTML y CSS 
 
 **Objetivo:**
 
@@ -50,7 +50,7 @@ Este repositorio contiene los ejercicios desarrollados durante el **Sprint 1** d
 
 ---
 
-## Tema 2 – PHP Básico 🐘
+## Tema 2 – PHP Básico 
 
 **Objetivo:**
 
@@ -65,7 +65,7 @@ Este repositorio contiene los ejercicios desarrollados durante el **Sprint 1** d
 
 ---
 
-## Tema 3 – PHP Arrays 🏭
+## Tema 3 – PHP Arrays 
 
 **Objetivo:**
 
@@ -79,7 +79,7 @@ Este repositorio contiene los ejercicios desarrollados durante el **Sprint 1** d
 
 ---
 
-## Tema 4 – PHP POO I 🏢
+## Tema 4 – PHP POO I 
 
 **Objetivo:**
 
@@ -94,7 +94,7 @@ Este repositorio contiene los ejercicios desarrollados durante el **Sprint 1** d
 
 ---
 
-## Tema 5 – PHP POO II 🏢
+## Tema 5 – PHP POO II 
 
 **Objetivo:**
 
@@ -107,7 +107,7 @@ Este repositorio contiene los ejercicios desarrollados durante el **Sprint 1** d
 
 ---
 
-## Tema 6 – PHP Avanzado 🔧
+## Tema 6 – PHP Avanzado 
 
 **Objetivo:**
 
@@ -125,7 +125,7 @@ Este repositorio contiene los ejercicios desarrollados durante el **Sprint 1** d
 
 ---
 
-## Tema 7 – Testing y Debug 🧪
+## Tema 7 – Testing y Debug 
 
 **Objetivo:**
 
@@ -139,7 +139,7 @@ Este repositorio contiene los ejercicios desarrollados durante el **Sprint 1** d
 
 ---
 
-## 🧰 Requisitos
+## Requisitos
 
 - Tener instalado un editor de texto como **Visual Studio Code**.
 - Tener instalado **Git** en la máquina local.
@@ -150,3 +150,4 @@ Este repositorio contiene los ejercicios desarrollados durante el **Sprint 1** d
 
 ✍️ **Autor/a:** Jenifer Álvarez  
 📅 **Sprint 1 – Curso FullStack – IT Academy**
+
