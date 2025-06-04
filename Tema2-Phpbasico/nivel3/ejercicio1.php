@@ -1,7 +1,8 @@
 <?php
 
 
-function cribaEratostenes(int $n){
+function cribaEratostenes(int $n)
+{
 $numeros = array_fill(2,$n-1,true);
 for ($i=2; $i*$i<=$n ; $i++) { 
     if (isset($numeros[$i]) && $numeros[$i] === true){
@@ -10,7 +11,7 @@ for ($i=2; $i*$i<=$n ; $i++) {
          
         }
     };
- }
+ } 
 
   return array_keys($numeros);
 

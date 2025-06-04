@@ -1,5 +1,5 @@
 <?php 
-function calcularSubtotal($producto,$cantidad){
+function calcularSubtotal($producto,$cantidad) :float{
   $subtotal= match ($producto){
   "chocolate"=> $cantidad * 1.00,
    "chicles"=>$cantidad * 0.50,
