@@ -17,7 +17,7 @@ $cantidadNotas=0;
       $media= array_sum($notas)/count($notas);
       echo "La media de " .$nombre. " es :" .round($media,2) ."<br>";
    
-  $sumaTotal += array_sum($notas);
+   $sumaTotal += array_sum($notas);
    $cantidadNotas += count($notas);
 
     }

@@ -20,6 +20,18 @@ class NumberCheckerTest extends \PHPUnit\Framework\TestCase {
         // Verificar que el número 5 es impar (debería devolver false)
         $this->assertFalse($result);
     }
+    
+
+    public function testIsNegative(){
+        $numberChecker= new NumberChecker(-25);
+        $result = $numberChecker->isPositive();
+        $this->assertFalse($result);
+    }
+public function testStringThrowException(){
+    $this->expectException(\InvalidArgumentException::class);
+    new NumberChecker("hola");
+}
+
 }
 
 ?>

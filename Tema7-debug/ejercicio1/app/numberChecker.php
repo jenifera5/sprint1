@@ -2,8 +2,13 @@
 namespace App;
 class NumberChecker  {
 
-
-	public function __construct(private int $number){}
+private $number;
+	public function __construct($number){
+      if(!is_int($number)){
+       throw new \InvalidArgumentException("Solo se perimiten numeros enteros");
+	  }
+	  $this->number=$number;
+	}
 
 	public function isEven(): bool {
 		return $this->number%2 == 0;
